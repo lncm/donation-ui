@@ -12,7 +12,7 @@ const QRCodeView = ({ address, amount, bolt11, qrCodeType }) => {
 
   return (
     <div id="qr-main">
-      <QRCode value={uri} renderAs="svg" style={{ width: '503px', height: '503px', maxHeight: '503px' }} />
+      <QRCode value={uri} renderAs="svg" style={{ width: '400px', height: '400px', maxHeight: '400px' }} />
     </div>
   );
 };
